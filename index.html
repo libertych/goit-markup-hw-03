@@ -9,7 +9,7 @@
   </head>
   <body>
 
-  
+    
 
     <!-- Шапка сайта -->
     
@@ -55,46 +55,55 @@
     <!-- Заголовок и главное фото -->
     <main>
     <section class="hero">
-      <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-     
+      <div class="container">
+       <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+     <div class="around-hero-button">
       <button class="hero-button">Заказать услугу</button>
+     </div>
+    </div>
     </section>
     <!-- Блок преимущества -->
-    <section>
+    <section class="advantages">
       <div class="container">
-      <ul class="list flex-advantages">
+      <ul class="flex-advantages">
         <li class="item">
-          <img src="./images/antena.svg" alt="антена" />
+          <div class="interactive-icon">
+            <img src="./images/antena.svg" alt="антена">
+          </div>
           <h2 class="title-advantages">Внимание к деталям</h2>
-          <p class="text">
+          <p class="advantages-text">
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
         <li class="item">
-          <img src="./images/clok.svg" alt="фото часы" />
+          <div class="interactive-icon">
+          <img src="./images/clok.svg" alt="фото часы">
+          </div>
           <h2 class="title-advantages">Пунктуальность</h2>
-          <p class="text">
+          <p class="advantages-text">
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
         <li class="item">
-          <img src="./images/laptop.svg" alt="фото ноутбук" />
+          <div class="interactive-icon">
+          <img src="./images/laptop.svg" alt="фото ноутбук">
+          </div>
           <h2 class="title-advantages">Планирование</h2>
-          <p class="text">
+          <p class="advantages-text">
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
         <li class="item">
+          <div class="interactive-icon">
           <img
             src="./images/man-emblem.svg"
-            width="100"
-            alt="эмблема человечка"
-          />
+            alt="эмблема человечка">
+          </div>
           <h2 class="title-advantages">Современные технологии</h2>
-          <p class="text">
+          <p class="advantages-text">
             Значимость этих проблем настолько очевидна, что реализация плановых
             заданий.
           </p>
@@ -103,23 +112,33 @@
     </div>
     </section>
     <!-- Блок Чем мы занимаемся -->
-    <section class="container">
-      <h2 class="title">Чем мы занимаемся</h2>
-      <ul class="title-links specialization">
-        <li class="item">
-          <img src="./images/img.png" alt="фото ноутбук" />
-          <h3><a href="">Десктопные приложения</a></h3>
+    <section class="we-doing">
+     <div class="container">
+      <h2 class="we-doing-title">Чем мы занимаемся</h2>
+      <ul class="we-doing-links">
+        <li class="we-doing-item">
+          <a href="">
+            <img src="./images/img.jpg" alt="фото ноутбук" width="370">
+          <h3 class="production-title">Десктопные приложения</h3>
+          </a>
+          
         </li>
-        <li class="item">
-          <img src="./images/box.png" alt="фото телефон" />
-          <h3><a href="">Мобильные приложения</a></h3>
+        <li class="we-doing-item">
+          <a href="">
+            <img src="./images/box.jpg" alt="фото телефон" width="370" height="294">
+          <h3 class="production-title">Мобильные приложения</h3>
+          </a>
+          
         </li>
-        <li class="item">
-          <img src="./images/img-2.png" alt="фото" />
-          <h3><a href="">Дизайнерские решения</a></h3>
+        <li class="we-doing-item">
+          <a href="">
+            <img src="./images/img-2.jpg" alt="фото" width="370" height="294">
+          <h3 class="production-title">Дизайнерские решения</h3>
+          </a>
+          
         </li>
       </ul>
-      
+    </div>
     </section>
     <!-- Блок Наша команда -->
     
@@ -128,117 +147,126 @@
       <div class="flex-team">
       <article class="item">
         <img src="./images/img-3.png" alt="фото" />
-        <h3 class="title-name">John Smith</h3>
+        <div class="card-description">
+          <h3 class="title-name">John Smith</h3>
         <p class="text-profession">Product Designer</p>
         <ul class="flex-social">
-          <li>
+          <li class="icon-social">
             <a href="">
-              <img src="./images/insta.svg" alt="логотип инстаграм" />
+              <img src="./images/instagram 2.svg" alt="логотип инстаграм" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/twiter.svg" alt="логотип твитер" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/facebook.svg" alt="логотип фейсбук" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/linkedin-1.svg" alt="логотип линкедин" />
             </a>
           </li>
         </ul>
+        </div>
       </article>
       <article class="item">
         <img src="./images/img-4.png" alt="фото" />
-        <h3 class="title-name">Marta Stewart</h3>
+        <div class="card-description">
+          <h3 class="title-name">Marta Stewart</h3>
         <p class="text-profession">Frontend Developer</p>
         <ul class="flex-social">
-          <li>
+          <li class="icon-social">
             <a href="">
-              <img src="./images/insta.svg" alt="логотип инстаграм" />
+              <img src="./images/instagram 2.svg" alt="логотип инстаграм" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/twiter.svg" alt="логотип твитер" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/facebook.svg" alt="логотип фейсбук" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/linkedin-1.svg" alt="логотип линкедин" />
             </a>
           </li>
         </ul>
+        </div>
       </article>
       <article class="item">
         <img src="./images/img-5.png" alt="фото" />
-        <h3 class="title-name">Robert Jakis</h3>
+        <div class="card-description">
+          <h3 class="title-name">Robert Jakis</h3>
         <p class="text-profession">Marketing</p>
         <ul class="flex-social">
-          <li>
+          <li class="icon-social">
             <a href="">
-              <img src="./images/insta.svg" alt="логотип инстаграм" />
+              <img src="./images/instagram 2.svg" alt="логотип инстаграм" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/twiter.svg" alt="логотип твитер" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/facebook.svg" alt="логотип фейсбук" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/linkedin-1.svg" alt="логотип линкедин" />
             </a>
           </li>
         </ul>
+        </div>
       </article>
       <article class="item">
         <img src="./images/img-6.png" alt="фото" />
-        <h3 class="title-name">Martin Doe</h3>
+        <div class="card-description">
+          <h3 class="title-name">Martin Doe</h3>
         <p class="text-profession">UI Designer</p>
         <ul class="flex-social">
-          <li>
+          <li class="icon-social">
             <a href="">
-              <img src="./images/insta.svg" alt="логотип инстаграм" />
+              <img src="./images/instagram 2.svg" alt="логотип инстаграм" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/twiter.svg" alt="логотип твитер" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/facebook.svg" alt="логотип фейсбук" />
             </a>
           </li>
-          <li>
+          <li class="icon-social">
             <a href="">
               <img src="./images/linkedin-1.svg" alt="логотип линкедин" />
             </a>
           </li>
         </ul>
+        </div>
       </article>
     </div>
     </section>
   
     <!-- Блок Постоянные клиенты -->
     <section>
+      <div class="container">
       <h2 class="title">Постоянные клиенты</h2>
       <ul class="flex-customers">
         <li>
@@ -273,42 +301,63 @@
           </a>
         </li>
       </ul>
+    </div>
     </section>
 </main>
     <!-- Подвал -->
     <div class="footer">
     <footer class="container">
-        <a href="./index.html">
-            <div class="logo-footer">Web <span class="logo-footer-accent">Studio</span> </div>
+      <div class="footer-content">
+        <div class="qqq">
+          <a href="./index.html" class="logo-footer">Web<span class="logo-footer-accent">Studio</span>
           </a>
-      <address class="address">г. Киев, пр-т Леси Украинки, 26
-      info@example.com +38 099 111 11 11
-    </address>
-      <b>присоединяйтесь</b>
-      <ul>
-        <li>
+        <address class="address">
+          <span class="address-item">г. Киев, пр-т Леси Украинки,26</span>
+          <span class="address-item">info@example.com</span>
+          <span class="address-item">+38 099 111 11 11</span>
+        </address>
+        </div>
+   
+       
+        <div class="flex-slogan">
+      <b class="slogan">присоединяйтесь</b>
+      <ul class="social-links">
+        <li class="item-social">
           <a href="">
-            <img src="./images/insta.svg" alt="логотип инстаграм" />
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="./images/twiter.svg" alt="логотип твитер" />
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="./images/facebook.svg" alt="логотип фейсбук" />
+            <img src="./images/instagram.svg" alt="логотип инстаграм" />
           </a>
         </li>
-        <li>
+        <li class="item-social">
           <a href="">
-            <img src="./images/linkedin-1.svg" alt="логотип линкедин" />
+            <img src="./images/tvit.svg" alt="логотип твитер" />
+          </a>
+        </li>
+        <li class="item-social">
+          <a href="">
+            <img src="./images/faceboock.svg" alt="логотип фейсбук" />
+          </a>
+        </li>
+        <li class="item-social">
+          <a href="">
+            <img src="./images/in.svg" alt="логотип линкедин" />
           </a>
         </li>
       </ul>
-      <p class="copy"> 2020 | Developed by GoIT Students</p >
+        </div>
+      </div>
+       
+      <p class="copy container"> 2020 | Developed by GoIT Students</p >
     </footer>
   </div>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
