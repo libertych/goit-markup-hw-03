@@ -83,6 +83,7 @@ img {
 }
 .nav-links .link {
     display: inline-block;
+    font-family: Roboto;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -145,14 +146,16 @@ img {
     background-color: aquamarine;
 } */
 .hero {
+    background-image: url(../images/Header.jpg);
+    background-repeat: no-repeat;
+    
     text-align: center;
 }
 .hero-title {
-    /* margin-bottom: 46px;
-    margin-top: 0; */
+    margin-bottom: 46px;
+    margin-top: 0;
     display: inline-block;
     width: 646px;
-    padding-top: 200px;
     margin-bottom: 46px;
     margin-top: 0;
     font-weight: 900;
@@ -163,11 +166,15 @@ img {
     color: rgb(8, 8, 8);
     /* текст будет белый */
 }
-.around-hero-button {
+/* .around-hero-button {
     padding-bottom: 200px;
-}
+    
+} */
 
 .hero-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 11px 32px;
     border: 0;
     border-radius: 4px;
@@ -300,16 +307,14 @@ ul {
 .flex-team .item + .item {
     margin-left: 30px;
 }
-.item {
-    padding-bottom: 24px;
-}
+
 
 .team {
     padding-bottom: 94px;
     background-color: var(--sekendary-background-color);
 }
 .card-description {
-    /* padding-top: 30px; */
+    padding-top: 30px;
     /* width: calc((100%-90px)/4); */
     text-align: center;
 }
@@ -331,7 +336,7 @@ ul {
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
-    /* padding-bottom: 35px; */
+    padding-bottom: 24px;
     width: 207px;
     
 }
@@ -364,7 +369,7 @@ ul {
 }
 .title-name {
     
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 10px;
     text-align: center;
     font-weight: 500;
@@ -619,3 +624,6 @@ ul {
 .item-social + .item-social {
 margin-left: 11px;
 }
+
+
+
